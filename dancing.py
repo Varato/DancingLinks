@@ -1,6 +1,9 @@
+# This program solves exact cover problem via Dancing Links algorithm
+# by Chen and Ling
+# 05052017
 from base import *
 
-O_seq=[]
+O_seq=[] # stack to store solutions
 
 def cover_column(column_header):
 	# covers the column header
@@ -35,6 +38,7 @@ def uncover_column(column_header):
 
 
 def search(root):
+	# recursively searches solutions
 	if root.R is root:
 		for O in O_seq:
 			solution = [O.C.N]
