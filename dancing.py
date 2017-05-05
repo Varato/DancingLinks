@@ -1,4 +1,4 @@
-# This program solves exact cover problem via Dancing Links algorithm
+# This program solves exact cover problems via Dancing Links algorithm
 # by Chen and Ling
 # 05052017
 from base import *
